@@ -8,13 +8,13 @@ public class Main {
         List<String> codigoFonte = new ArrayList<>();
 
         System.out.println("Digite o código da linguagem Elgol linha por linha.");
-        System.out.println("Digite 'FIM' (sem aspas) para encerrar a entrada.");
+        System.out.println("Deixe uma linha em branco para encerrar a entrada.");
 
         while (true) {
             System.out.print("> ");
             String linha = scanner.nextLine();
 
-            if (linha.equalsIgnoreCase("FIM")) {
+            if (linha.equalsIgnoreCase("")) {
                 break;
             }
 
