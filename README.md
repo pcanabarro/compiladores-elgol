@@ -37,10 +37,14 @@ Ele identifica tokens como identificadores, números, palavras reservadas, opera
 ## Como utilizar
 Execute:
 `javac Main.java`
+
 `AnalisadorLexico.java`
+
 `java Main`
 
 ## Integrantes:
 Leonardo Pinto Machado
+
 Pedro Canabarro
+
 Everton Santos
