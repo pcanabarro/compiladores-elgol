@@ -36,6 +36,7 @@ Ele identifica tokens como identificadores, números, palavras reservadas, opera
 
 ## Como utilizar
 Execute:
+
 `javac Main.java`
 
 `AnalisadorLexico.java`
