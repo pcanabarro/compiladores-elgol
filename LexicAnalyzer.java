@@ -15,7 +15,7 @@ public class LexicAnalyzer {
             "([1-9][0-9]*)|" +                             // Número inteiro (sem 0 à esquerda)
             "(zero)|" +                                    // Representação especial de zero
             "(comp)|" +                                    // Operador comp
-            "(elgio|inteiro|enquanto|se|entao|senao|inicio|fim|maior|menor|igual|diferente)|" + // Palavras-chave
+            "(elgio|inteiro|enquanto|senao|se|entao|inicio|fim|maior|menor|igual|diferente)|" + // Palavras-chave
             "(=|\\+|\\-|x|/)|" +                           // Operadores
             "(\\(|\\))|" +                                 // Parênteses
             "(\\.)"                                        // Fim de comando
@@ -29,7 +29,7 @@ public class LexicAnalyzer {
 
         Matcher matcher = PADRAO_TOKEN.matcher(linha);
 
-        System.out.println("Analisando linha: \"" + linha + "\"");
+        System.out.println("\nAnalisando linha: \"" + linha + "\"");
         int pos = 0;
         while (matcher.find()) {
             String token = matcher.group();
