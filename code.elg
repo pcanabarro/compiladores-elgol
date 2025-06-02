@@ -1,0 +1,15 @@
+inteiro _Fazalgo (inteiro Fazum, inteiro Fazdois) .
+inicio .
+   inteiro Lixo .
+
+   Lixo = Fazum x Fazdois + zero .
+   elgio = Lixo .
+fim .
+
+inicio .
+  inteiro Variavel .
+  inteiro Teste .
+
+  Variavel = zero .
+  Teste = 45 x _Fazalgo (45, Variavel) .
+fim .

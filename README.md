@@ -38,9 +38,9 @@ Ele identifica tokens como identificadores, números, palavras reservadas, opera
 Execute:
 
 ```bash
-javac Main.java LexicAnalyzer.java
+javac src/*.java
 
-java Main
+java -cp src Main
 ```
 
 ## Integrantes:
